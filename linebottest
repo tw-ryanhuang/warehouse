@@ -1,0 +1,55 @@
+{
+  "type": "bubble",
+  "body": {
+    "type": "box",
+    "layout": "vertical",
+    "spacing": "md",
+    "contents": [
+      {
+        "type": "text",
+        "text": "一恭meet會議室",
+        "wrap": true,
+        "weight": "bold",
+        "gravity": "center",
+        "size": "xl"
+      },
+      {
+        "type": "separator"
+      },
+      {
+        "type": "text",
+        "text": "會議代碼:bcu-gbow-tss",
+        "size": "xl"
+      },
+      {
+        "type": "box",
+        "layout": "vertical",
+        "margin": "xxl",
+        "contents": [
+          {
+            "type": "image",
+            "url": "https://i.imgur.com/gKYsCbb.png",
+            "aspectMode": "cover",
+            "size": "xl",
+            "margin": "md"
+          },
+          {
+            "type": "button",
+            "action": {
+              "type": "uri",
+              "label": "連結",
+              "uri": "https://meet.google.com/bcu-gbow-tss?lfhs=2"
+            },
+            "color": "#009000",
+            "style": "link"
+          }
+        ]
+      }
+    ]
+  },
+  "styles": {
+    "header": {
+      "separator": true
+    }
+  }
+}
